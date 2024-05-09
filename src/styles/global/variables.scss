@@ -1,0 +1,27 @@
+$font: "Poetsen One", sans-serif;
+$bg-color: rgb(10, 67, 69);
+$fcolor: rgb(99, 209, 209);
+$highligt: rgb(15, 3, 70);
+
+// Flex containers
+
+@mixin flex($direction, $align, $justify){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+
+// Fonts
+@mixin font-m {
+    font-family: $font;
+    font-weight: 400;
+    background-color: $bg-color;
+    color: $fcolor;
+}
+
+@mixin font-l {
+    font-family: $font;
+    font-weight: 800;
+}

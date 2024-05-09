@@ -1,6 +1,16 @@
 
-export default function Header(){
+export default function Header() {
     return (
-        <h1>whteeeeev</h1>
+        <>
+            <header>
+                <img src="" alt="Logo here" />
+                <div className="head_buttons">
+                    <a href="">Login</a>
+                    <a href="">Sign up</a>
+                    <a href="">About</a>
+                </div>
+
+            </header>
+        </>
     )
 }

@@ -1,11 +1,14 @@
+// Library / Utils
 import React from 'react'
 import {createBrowserRouter, Router, RouterProvider} from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 
-import './index.css'
+// Styles
+import "./styles/main.scss"
 
-import Header from './Components/Header.tsx'
+// Components
+import Landing from './Components/Landing.tsx'
 
 
 
@@ -16,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Header/>,
+        element: <Landing/>,
       }
     ]
   }

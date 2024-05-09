@@ -7,7 +7,7 @@ import LogIn from "./Login";
 import SignIn from "./SignIn";
 
 export default function Landing(){
-    const [ logSign, setLogSign ] = useState("log")
+    const [ logSign, setLogSign ] = useState<string>("log")
 
     function changeForm(select: string){
         if (select !== logSign){

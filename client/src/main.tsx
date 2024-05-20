@@ -9,6 +9,7 @@ import "./styles/main.scss"
 
 // Components
 import Landing from './Components/Landing.tsx'
+import SimpleProb from './Components/SimpleProb.tsx'
 
 
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Landing/>,
+        element: <SimpleProb/>,
       }
     ]
   }

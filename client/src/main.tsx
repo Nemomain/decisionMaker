@@ -10,6 +10,7 @@ import "./styles/main.scss"
 // Components
 import Landing from './Components/Landing.tsx'
 import SimpleProb from './Components/SimpleProb.tsx'
+import ComplexProb from './Components/ComplexProb.tsx'
 
 
 
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <SimpleProb/>,
+        element: <ComplexProb/>,
       }
     ]
   }

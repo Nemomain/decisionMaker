@@ -8,7 +8,7 @@ export default function ProsColumn({ identity, rowNum, setRowNum }) {
     }
 
     function eraseRow() {
-        setRowNum(rowNum - 1)
+        if (rowNum > 1) setRowNum(rowNum - 1)
     }
 
     return (
